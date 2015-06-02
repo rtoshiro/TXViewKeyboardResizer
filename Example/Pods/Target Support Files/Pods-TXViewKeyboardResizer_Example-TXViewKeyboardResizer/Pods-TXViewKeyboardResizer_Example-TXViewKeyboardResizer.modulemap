@@ -1,0 +1,6 @@
+framework module TXViewKeyboardResizer {
+  umbrella header "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-umbrella.h"
+
+  export *
+  module * { export * }
+}

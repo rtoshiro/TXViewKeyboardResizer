@@ -9,22 +9,21 @@
 
 Pod::Spec.new do |s|
   s.name             = "TXViewKeyboardResizer"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of TXViewKeyboardResizer."
+  s.version          = "0.9.0"
+  s.summary          = "UIView category to allow the target view to resize itself according to UIKeyboardView size"
   s.description      = <<-DESC
-                       An optional longer description of TXViewKeyboardResizer
+                       UIView category to allow the target view to resize itself according to UIKeyboardView size
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+Pod 'TXViewKeyboardResizer'
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TXViewKeyboardResizer"
+  s.homepage         = "https://github.com/rtoshiro/TXViewKeyboardResizer"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "rtoshiro" => "rtoshiro@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TXViewKeyboardResizer.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/rtoshiro/TXViewKeyboardResizer.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

@@ -16,14 +16,30 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+  [super viewDidLoad];
+  
+  [self.scrollView startKeyboardObserverWithDelegate:self];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+  [super viewWillDisappear:animated];
+  
+  [self.scrollView stopKeyboardObserver];
 }
 
 - (void)didReceiveMemoryWarning
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [super didReceiveMemoryWarning];
+}
+
+- (void)viewDidTap:(UIView *)view
+{
+  for (UIView *subview in self.scrollView.subviews)
+  {
+    if ([subview isMemberOfClass:[UITextField class]])
+      [((UITextField *)subview) resignFirstResponder];
+  }
 }
 
 @end

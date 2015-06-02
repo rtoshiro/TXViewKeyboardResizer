@@ -1,0 +1,1728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052ACF5FE1CEEE0257B2BBD1 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B03F5D70208CB8AA9A5BDA3 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05D421D0BD7AB95BDE337B2A /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = DB586F8D89EC0930D2316FE9 /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		11DCF25982A6D09F8ED021B1 /* XCTest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4405C3B58367B734CB649014 /* XCTest+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12848F20B6D28A3D0EAA9621 /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = A68E1E7441C0E6231CD8EB3C /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18BCA2F83D9DA722939432B2 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = AE917BFAC9EB825CFB6CA629 /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A10AFB34D584727697841C0 /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 907BFAFA40F433BF37F0F780 /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A740699ADD4F92BD0A0D143 /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B4EE5ACE08082C57DC5471 /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B12B77B908356FEF477319F /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1F89D9EAB40AE8E1DE6FED /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C53FECF7D2257B3C913BCDF /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA8DBE4107F888198B92BC3 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20DBC22A00462F815BBEEE2A /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 812B8BB01DB0FF90CB6C4875 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2234B6CBECD94641D6624D17 /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2040D96E06337B4F91CF3703 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		23346A9599EB87A64E114A37 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = C09F9C7D4BA607016A9AD5E4 /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		246ACD612736C48F0AFD6128 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 914C964130C51F26BC5B5939 /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24D1FD01354218E59295549C /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA738E1C45A0979F7CCC6B /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2651A877C0C4BA2BE7AAF3C1 /* TXViewKeyboardResizer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0E4BF34A7FB917B14969D31 /* TXViewKeyboardResizer.bundle */; };
+		289DC9B77A53A2099E94A373 /* Pods-TXViewKeyboardResizer_Tests-Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A489F7D63244BA3AE1E2B864 /* Pods-TXViewKeyboardResizer_Tests-Expecta-dummy.m */; };
+		2B10F5EF6391E3A2230ED10A /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D371D226204D83F805A413A /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3199C477913119BDF55B3BD2 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CF6A9E037E54E40F72BE51 /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3348D5F11CB852AE98D608C4 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AAA8DD845E1C45EF899774 /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		334BFF53F23E7141D49E12ED /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D62E7812A0CB18D612702066 /* SPTExampleGroup.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		342BB056BFCEAF5B3093D6D4 /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = A31327E4289CB2DE99F71EDB /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		345F0241E15BDE9603597324 /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 500C656030C3171F6721B366 /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34E0DFABA44D9546C2E4168D /* TXViewKeyboardResizer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D498EC0650E111FA3393226F /* TXViewKeyboardResizer.bundle */; };
+		3E72FFEEE82EB1E85E3AC07E /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8B934D864A2A7012335347 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4049123B63B296F4A22CB1B2 /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DFFF4AF211C62795545AC3 /* SPTCompiledExample.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		438F5FFE93A4ADC9E0FFD58F /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7C1AAAB3BA9EA7DF153B18 /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44D8BBFC141AE9C9E607AB1F /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA7DC41F7662828643749F3 /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4DB61E16F8D5BCFA552A110C /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = C00C5D04D7A62A3F560C328C /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5136BDFB452943EF44B70651 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 036E3110A7FDBF2D8812B671 /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5164ECB65EE71D5952ED2E7A /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CBFC5A5D7E6F31900F8030 /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F8BFD4483DCB9CFA966C6A /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FAD9C9C21B18F99ADE82E3 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53DF19147D292A98494BE650 /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = F96C8D60F5A2C836FA7B6AF3 /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A32DCF5963459463118E58 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = C09D8ADFFE591DF3894A2C8A /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56023D5E1F3492D43535F692 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E5D66049B43389B0092828 /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		564B9794D21FB80D4F05F27B /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8221EFB36FDDA7151F69410C /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57E4379353120FE10A57B18B /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C19EAA692E892571E04DDF7 /* EXPMatchers+beginWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD02C72D294F91B85256DFF /* UIView+KeyboardResizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F486EFD8247443247D8C0D0 /* UIView+KeyboardResizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B799481353280F5E63860B6 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = E3194C58DDC4AD0CF05AE9FC /* SPTCallSite.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C0CF5D432BD0F571E1D419C /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6BB4CC9125F94022981AC9 /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D22F30117C95556B2D92978 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = BAADBE67FE8C49BEA811DE65 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5DFF7BF51CF24618C8751527 /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8FB6309370EC39018DBC6C /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-dummy.m */; };
+		61766125598E104E5E30D592 /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 259926E35560BBAA71C12346 /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66F8EF42C818AB9FE8834E6B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6915595897D9F7E4D5312918 /* XCTest.framework */; };
+		6CE52B936F48D07F4102A9BB /* Pods-TXViewKeyboardResizer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 502F8F1818733F03D0E52CB9 /* Pods-TXViewKeyboardResizer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2A8D43034C34C50C991E5A /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AB590E4DBD0344EB8C825 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7515C4F1E71141554C7213CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C44ECF2CC1FFD468BD2469 /* Foundation.framework */; };
+		75C3E4FFD218B61E868F85B9 /* Pods-TXViewKeyboardResizer_Tests-Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46AC9835AB40E277FD5B78ED /* Pods-TXViewKeyboardResizer_Tests-Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7878E9DA8CC28F3C12AC3324 /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1789BBD8BC4E09A5609EB0 /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		78C716A56B993F0884933998 /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DEA4EBCC2B2D9F1407EAAE /* SPTTestSuite.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7A481458059097B3B65B865C /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 06069AF38088D23E73ADBD48 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A9F2E3BB2278616EB6829FF /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 408FF706B0991B5435145ABA /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C4514B9BFCD363A07D944DA /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 25501FF54E259CC837C41DCE /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7EB948F7E9CDECC84B06BEB8 /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368F0F96AE923770FCA5FF9 /* SpectaUtility.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83021DF0EBAF4B574A3B633A /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A2C29A0EA7880D3B90A0F1 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8AE590D49703DCDF032257F2 /* Pods-TXViewKeyboardResizer_Tests-Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A71D5CC5811FB18E4FF0CE /* Pods-TXViewKeyboardResizer_Tests-Specta-dummy.m */; };
+		8B16275E5ED84D2717460AE6 /* Pods-TXViewKeyboardResizer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A17535DEE7C4FDDA52574FCE /* Pods-TXViewKeyboardResizer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B7F4A05B85F8405CD61DA93 /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B659BB2EB04E980E87613513 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE0D5A869176D81EEAF6393 /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C34AA65DF9EAB1F4F38D186 /* SPTExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		935694492A3787CD318F30E5 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 995280BF6E638B78CC45CF43 /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		939CA370103004025FADE9B0 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBB686536B9BBDEF26D503 /* SpectaDSL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		95EB5B4683313B8C70C06499 /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = C13F2E4CCD713FB4B9FF3FDC /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		983C998001802492D55127BF /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F05B48BDBD48D81970E5E23 /* EXPMatchers+beInTheRangeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		999AF3E315784B95DFFD9526 /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF03279892315B17B8D6348 /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9C4690AF35AFC912A43AD765 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD573DE2D1BB51F1B671B1F /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9CFDBDF8194EE25BC4DB53C3 /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC590001A2C6B0EDD5AFF57 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A3A1EAB1D34AAEAFAEF0267F /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDCFA76EB4F70D3BBBC0ABF /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A3E12E0B144C070F345E2C93 /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = 145A3428C2F8A49C9368E32F /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A53206F1892E6DF87C55047E /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D668E16AB10A5F2377C6772 /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A65FCFC42C3CB1A331E87699 /* Pods-TXViewKeyboardResizer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1066DEAF4083AF5FD4F9AF /* Pods-TXViewKeyboardResizer_Tests-dummy.m */; };
+		A7DA86B44D0AEDADFD6A07B9 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 117D894BD069792A41911FCE /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83889C20F594966CC96E1B7 /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F19B7116205B23F5CB6A64 /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A84AEE52D409E411F87C9986 /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AFFB4810120E358195A44 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AB22665EE1DE7F36ACA3F2C6 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A17095C7AC3CF2CB44AAEAF6 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-dummy.m */; };
+		AC8F84BEBE3E4D106070DBE0 /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 9057E6F46FCD674471F45966 /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1B448F89BCFB5EA4515595 /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7FF752E1B11A7167DFFB0E /* SPTSpec.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B11DCE935CB635B2B82E8CC2 /* Pods-TXViewKeyboardResizer_Tests-Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D5B64567CA16162ECC6F7B /* Pods-TXViewKeyboardResizer_Tests-Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5909D53EBA0660C9DB8B0B0 /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 19707923F6DB8C7D09F2B36D /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D496B882384D36E9042892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C44ECF2CC1FFD468BD2469 /* Foundation.framework */; };
+		B73B041392D9E0B4B4BB89A0 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC10EBD11870DE3E5EFCF2C /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B9078433E56849B45E0A3752 /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D66016311D9B7A915079D0D0 /* SPTExample.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BA6EB3EFB6321ABD157EF023 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A5361B1F9A6F890C8336B620 /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD695A49B2774A21CFD3F304 /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FA6DBE8A4FC49454FCAF49 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BD847EEF043F27BF3017333A /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB89158ABEE321BABA0DD42 /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDEE4EA1E41D4C07A255E0CC /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF4B32FECF751FFA3A7E461 /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4A26DB9A95FF35BC8516CA /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B2AC321493ACBBB1BF9280 /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4D44354BD6A68D7C0C5DDE /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F798D726A8A4994B954DAB /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF994017A47D8BC77159A241 /* UIView+KeyboardResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 650B6CA49033EF50081B99B8 /* UIView+KeyboardResizer.m */; };
+		C0B99F46A0E9D698E1ADE5DA /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 6086F55EADCC2099C22C0FDE /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C3667661A2A9B6127B54BE70 /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4661EA4B0684DE0D5F8C71 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A295CE6C23CFD3BF11C287 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E3ED57F5A7B76477A8263C /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC75451DBAE4DEF885B1A7B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C44ECF2CC1FFD468BD2469 /* Foundation.framework */; };
+		CC7E5B2AB561D76DC1609335 /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = E2223213258A33FD9BF11BD4 /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF38E79A455E66236560246B /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 623D7BD78EC5F18559E505F3 /* SPTSharedExampleGroups.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CF9ADA895DFFAA5A0AAF6C90 /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 79338B5D89FEB5424596CACE /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2A23A4CB3E73D4B740166D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6915595897D9F7E4D5312918 /* XCTest.framework */; };
+		D3398CD3A1FC15E5F9CCFF95 /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = FA980787A7860F711CFBAE8B /* EXPMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D382B68B6FFC6F8BE19AE3A6 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 31A57A0A853F297979066FA8 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4DF8971EA93D493AA014546 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE4445C0C28F55854A3117D /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6A796D14230B85C560E2E61 /* Pods-TXViewKeyboardResizer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCF92479AFE95D901CD387F /* Pods-TXViewKeyboardResizer_Example-dummy.m */; };
+		D6F19787A0FA71A60F189BDA /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B4FDEFD9E068F76E3E677B /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB64C7A6F8D8593116F38411 /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C76CA4767B500702001B48 /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC08385DC71B8E9D19FEAFC1 /* UIView+KeyboardResizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 650B6CA49033EF50081B99B8 /* UIView+KeyboardResizer.m */; };
+		DC28BA04DE89DBF41B0E3A77 /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C60AFA59D13C42B478C635 /* XCTestCase+Specta.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E016D4F05B0E36407334A915 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA70A1F2D3D8549EEE54BFB /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E09B77308FF2247951A36F7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C44ECF2CC1FFD468BD2469 /* Foundation.framework */; };
+		E3281F64953BE1ED92D22A5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C44ECF2CC1FFD468BD2469 /* Foundation.framework */; };
+		E44574E6EF09A63B5DE508A6 /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E9549FC5CB4D101EAA7E25 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E56F45EB754A0AD059113E26 /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE00796E22F8A5A354A8832 /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E759A1EAAFDA99C7B9EE68AA /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE2FB022A81959173646FF1 /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E88E5E475A4835F3366BB8D5 /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 741186AE82FBD84441F30B78 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EB784CEB1B1F1A839EF79965 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = B243D8C4EF04DBD96CDAA61D /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ED54AC277E1508CC663BD645 /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 649062849146ADF4A2C36B3E /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFAABAF16EE740AFB2EC1F65 /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8167E319CE02B0BB5A04E2C5 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F37FAFA2E30591B9F9CA8481 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = F0968434988120F0077236B1 /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F3BCC95D890B23976878A920 /* UIView+KeyboardResizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F486EFD8247443247D8C0D0 /* UIView+KeyboardResizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4197A73FF81BFA073CE1AE3 /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = E740D52B64148B399D784356 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F55121FA3B55A74AB4C689A3 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 154288D912F2921B1E886060 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB5B65227EECD76A35ED7266 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 19093E08151FA1E97BE54C67 /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC0A31172CD14709465495F3 /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E621D9F27B4D33F20D1768 /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC3D7DA840C2F89C4FBA2DF1 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B162F9E47C34CA49BD9C1E /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC510F452D590E7021563DF8 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = BD436D395754B4A2493375CA /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC90452E286F6FD03B38B2D5 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = A07171A34A6E6C48ADF46B33 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCC3203FD2C07EB250AFCE7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C44ECF2CC1FFD468BD2469 /* Foundation.framework */; };
+		FDE5674DEDF910D6F05607B2 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FD0C27606B02A3A176D333 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301AD6448539D8FCE89FD672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F981E469B52C174CCF2125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C8BCF1EDF2115D45C5442E;
+			remoteInfo = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-TXViewKeyboardResizer";
+		};
+		3AA54F8BEF882F8C5977CF9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F981E469B52C174CCF2125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 973CCD3821B77606FBE18823;
+			remoteInfo = "Pods-TXViewKeyboardResizer_Tests-Specta";
+		};
+		95625DB15818D515DD5ACF4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F981E469B52C174CCF2125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6F2E9165EB70D549AB438A;
+			remoteInfo = "Pods-TXViewKeyboardResizer_Tests-Expecta";
+		};
+		9EFF12CD9D4286F001A10501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F981E469B52C174CCF2125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBA0F402E0F5F6CADF0F63A;
+			remoteInfo = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer";
+		};
+		BABB9738CB8A6BC29D8815FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F981E469B52C174CCF2125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF860A03AE7CEA8FD36E968;
+			remoteInfo = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-TXViewKeyboardResizer";
+		};
+		FED1DB0C2AF1E26376D0686F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F981E469B52C174CCF2125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C389AA5425EEAB699DAC98EB;
+			remoteInfo = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036E3110A7FDBF2D8812B671 /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
+		06069AF38088D23E73ADBD48 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
+		0A23258D9D909B941470A297 /* Pods-TXViewKeyboardResizer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXViewKeyboardResizer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0C8FB6309370EC39018DBC6C /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-dummy.m"; sourceTree = "<group>"; };
+		0CA8DBE4107F888198B92BC3 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-umbrella.h"; path = "../Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-umbrella.h"; sourceTree = "<group>"; };
+		0EE00796E22F8A5A354A8832 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
+		117D894BD069792A41911FCE /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
+		12C76CA4767B500702001B48 /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
+		145A3428C2F8A49C9368E32F /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
+		154288D912F2921B1E886060 /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
+		15B4FDEFD9E068F76E3E677B /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
+		179BAE6BD60C2784878C8415 /* Pods-TXViewKeyboardResizer_Tests-Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXViewKeyboardResizer_Tests-Expecta-prefix.pch"; sourceTree = "<group>"; };
+		19093E08151FA1E97BE54C67 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
+		19707923F6DB8C7D09F2B36D /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
+		2040D96E06337B4F91CF3703 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
+		22E9549FC5CB4D101EAA7E25 /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
+		24F1EE8048201438777B6089 /* Pods-TXViewKeyboardResizer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXViewKeyboardResizer_Example-resources.sh"; sourceTree = "<group>"; };
+		25501FF54E259CC837C41DCE /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
+		259926E35560BBAA71C12346 /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
+		28FC2CFED7B96701EB481667 /* Pods-TXViewKeyboardResizer_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXViewKeyboardResizer_Tests-environment.h"; sourceTree = "<group>"; };
+		2B7C1AAAB3BA9EA7DF153B18 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
+		2DB1869B6E797CA3332E70F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE4445C0C28F55854A3117D /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
+		2F486EFD8247443247D8C0D0 /* UIView+KeyboardResizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+KeyboardResizer.h"; sourceTree = "<group>"; };
+		3076D205AF8FDA577B74637E /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-Private.xcconfig"; sourceTree = "<group>"; };
+		31A57A0A853F297979066FA8 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
+		34B4EE5ACE08082C57DC5471 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
+		35D652D04A1BF2A8B8C50EE3 /* Pods-TXViewKeyboardResizer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXViewKeyboardResizer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3B921D63C48D326BF3427643 /* Pods-TXViewKeyboardResizer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXViewKeyboardResizer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3BB89158ABEE321BABA0DD42 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
+		408FF706B0991B5435145ABA /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
+		4218E232864D35FBC7753A3D /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer.modulemap"; sourceTree = "<group>"; };
+		42C44ECF2CC1FFD468BD2469 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4405C3B58367B734CB649014 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
+		46AC9835AB40E277FD5B78ED /* Pods-TXViewKeyboardResizer_Tests-Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXViewKeyboardResizer_Tests-Specta-umbrella.h"; sourceTree = "<group>"; };
+		4AD573DE2D1BB51F1B671B1F /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
+		4FA7DC41F7662828643749F3 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
+		500C656030C3171F6721B366 /* SPTCompiledExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCompiledExample.h; path = Specta/Specta/SPTCompiledExample.h; sourceTree = "<group>"; };
+		502F8F1818733F03D0E52CB9 /* Pods-TXViewKeyboardResizer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXViewKeyboardResizer_Example-umbrella.h"; sourceTree = "<group>"; };
+		51E5D66049B43389B0092828 /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
+		5689FE41BFCAF07B9F92F6AB /* Pods-TXViewKeyboardResizer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TXViewKeyboardResizer_Example.modulemap"; sourceTree = "<group>"; };
+		58A371D2FE46A1B7A4185409 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Info.plist"; sourceTree = "<group>"; };
+		5BFE9FE9E019D79543C4D62E /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-prefix.pch"; path = "../Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-prefix.pch"; sourceTree = "<group>"; };
+		5CCEB7E9B5B7B581A30A7276 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D668E16AB10A5F2377C6772 /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
+		6086F55EADCC2099C22C0FDE /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
+		61215982EBC17EA96151A235 /* Pods-TXViewKeyboardResizer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXViewKeyboardResizer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		623D7BD78EC5F18559E505F3 /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
+		63B442654F995FC5AF10FDB3 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer.xcconfig"; path = "../Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer.xcconfig"; sourceTree = "<group>"; };
+		649062849146ADF4A2C36B3E /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
+		64FD0C27606B02A3A176D333 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
+		650B6CA49033EF50081B99B8 /* UIView+KeyboardResizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+KeyboardResizer.m"; sourceTree = "<group>"; };
+		65A928A1C9D46CF9301EB63E /* Pods-TXViewKeyboardResizer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TXViewKeyboardResizer_Tests.modulemap"; sourceTree = "<group>"; };
+		65CFDF7D39F219ADA0000740 /* TXViewKeyboardResizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TXViewKeyboardResizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		667475A4B1782A209A6BB5C1 /* Pods-TXViewKeyboardResizer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXViewKeyboardResizer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6915595897D9F7E4D5312918 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6C19EAA692E892571E04DDF7 /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
+		6C34AA65DF9EAB1F4F38D186 /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
+		6C45FD6AE8C5F208562EBE47 /* Pods-TXViewKeyboardResizer_Tests-Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXViewKeyboardResizer_Tests-Specta.xcconfig"; sourceTree = "<group>"; };
+		6F05B48BDBD48D81970E5E23 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
+		71EF9B3B2159222D7BE51AAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7368F0F96AE923770FCA5FF9 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
+		741186AE82FBD84441F30B78 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
+		74FE2CE9850752B40C6C6682 /* Pods-TXViewKeyboardResizer_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXViewKeyboardResizer_Example-environment.h"; sourceTree = "<group>"; };
+		77CBFC5A5D7E6F31900F8030 /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
+		79338B5D89FEB5424596CACE /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
+		7B03F5D70208CB8AA9A5BDA3 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
+		7B1AB590E4DBD0344EB8C825 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
+		7E1E6393E9113ADE4F638C2C /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer.modulemap"; path = "../Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer.modulemap"; sourceTree = "<group>"; };
+		7F1789BBD8BC4E09A5609EB0 /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
+		812B8BB01DB0FF90CB6C4875 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
+		8167E319CE02B0BB5A04E2C5 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
+		8221EFB36FDDA7151F69410C /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
+		82A2C29A0EA7880D3B90A0F1 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
+		83C60AFA59D13C42B478C635 /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
+		83D5B64567CA16162ECC6F7B /* Pods-TXViewKeyboardResizer_Tests-Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXViewKeyboardResizer_Tests-Expecta-umbrella.h"; sourceTree = "<group>"; };
+		87E3ED57F5A7B76477A8263C /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
+		896D25C654F6C1976EFBE7E0 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-Private.xcconfig"; path = "../Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-Private.xcconfig"; sourceTree = "<group>"; };
+		8A8B934D864A2A7012335347 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
+		8ABBB686536B9BBDEF26D503 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
+		8C010418A5C5F22CA1819A12 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D371D226204D83F805A413A /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
+		8EA4DB796A2F78218393BF44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB8E0266163712CCE97515B /* Pods-TXViewKeyboardResizer_Tests-Expecta-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXViewKeyboardResizer_Tests-Expecta-Private.xcconfig"; sourceTree = "<group>"; };
+		9057E6F46FCD674471F45966 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
+		905AFFB4810120E358195A44 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
+		907BFAFA40F433BF37F0F780 /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-umbrella.h"; sourceTree = "<group>"; };
+		90CF6A9E037E54E40F72BE51 /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
+		914C964130C51F26BC5B5939 /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
+		91DFFF4AF211C62795545AC3 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
+		938A1276C95588675504D062 /* Pods-TXViewKeyboardResizer_Tests-Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXViewKeyboardResizer_Tests-Expecta.xcconfig"; sourceTree = "<group>"; };
+		94E8B5CD2953A4EEE758C073 /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-prefix.pch"; sourceTree = "<group>"; };
+		95AAA8DD845E1C45EF899774 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
+		98F798D726A8A4994B954DAB /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
+		995280BF6E638B78CC45CF43 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
+		9C1066DEAF4083AF5FD4F9AF /* Pods-TXViewKeyboardResizer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXViewKeyboardResizer_Tests-dummy.m"; sourceTree = "<group>"; };
+		9CA762EA1A96F6946F46C269 /* Pods-TXViewKeyboardResizer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXViewKeyboardResizer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E159AEC64D7B25FC3AC806F /* Pods-TXViewKeyboardResizer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXViewKeyboardResizer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A07171A34A6E6C48ADF46B33 /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
+		A17095C7AC3CF2CB44AAEAF6 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-dummy.m"; path = "../Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-dummy.m"; sourceTree = "<group>"; };
+		A17535DEE7C4FDDA52574FCE /* Pods-TXViewKeyboardResizer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXViewKeyboardResizer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A31327E4289CB2DE99F71EDB /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
+		A489F7D63244BA3AE1E2B864 /* Pods-TXViewKeyboardResizer_Tests-Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXViewKeyboardResizer_Tests-Expecta-dummy.m"; sourceTree = "<group>"; };
+		A5361B1F9A6F890C8336B620 /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
+		A5B2AC321493ACBBB1BF9280 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
+		A68E1E7441C0E6231CD8EB3C /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
+		AC6BB4CC9125F94022981AC9 /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
+		ACF03279892315B17B8D6348 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
+		AE7FF752E1B11A7167DFFB0E /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
+		AE917BFAC9EB825CFB6CA629 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
+		AF6F1CF67DA8B1E4C283B276 /* Pods-TXViewKeyboardResizer_Tests-Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TXViewKeyboardResizer_Tests-Expecta.modulemap"; sourceTree = "<group>"; };
+		AFE2FB022A81959173646FF1 /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
+		B0FA738E1C45A0979F7CCC6B /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
+		B1B162F9E47C34CA49BD9C1E /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
+		B243D8C4EF04DBD96CDAA61D /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
+		B5C6E90EC2793DB8E1880061 /* Pods-TXViewKeyboardResizer_Tests-Specta-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXViewKeyboardResizer_Tests-Specta-Private.xcconfig"; sourceTree = "<group>"; };
+		B659BB2EB04E980E87613513 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
+		BAADBE67FE8C49BEA811DE65 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
+		BCC10EBD11870DE3E5EFCF2C /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
+		BD436D395754B4A2493375CA /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
+		BEC590001A2C6B0EDD5AFF57 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
+		C00C5D04D7A62A3F560C328C /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
+		C09D8ADFFE591DF3894A2C8A /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
+		C09F9C7D4BA607016A9AD5E4 /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
+		C0FAD9C9C21B18F99ADE82E3 /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
+		C13F2E4CCD713FB4B9FF3FDC /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
+		C4196713029211E736526C62 /* Pods-TXViewKeyboardResizer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXViewKeyboardResizer_Tests-resources.sh"; sourceTree = "<group>"; };
+		C683E4D08AFD252B42DE3FE8 /* Pods_TXViewKeyboardResizer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TXViewKeyboardResizer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E621D9F27B4D33F20D1768 /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
+		C724CE8BE539C3FD3A0929C1 /* Pods-TXViewKeyboardResizer_Tests-Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXViewKeyboardResizer_Tests-Specta-prefix.pch"; sourceTree = "<group>"; };
+		C8FA6DBE8A4FC49454FCAF49 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
+		CA592DAE0EE9D1DDEBC961F8 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCF92479AFE95D901CD387F /* Pods-TXViewKeyboardResizer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXViewKeyboardResizer_Example-dummy.m"; sourceTree = "<group>"; };
+		CC27C63D852DC55EF66E7E01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAEB98C75A5E7C271FFDC0E /* TXViewKeyboardResizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TXViewKeyboardResizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECC74EC9E9C8B0F547D6324 /* Pods-TXViewKeyboardResizer_Tests-Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TXViewKeyboardResizer_Tests-Specta.modulemap"; sourceTree = "<group>"; };
+		CF1F89D9EAB40AE8E1DE6FED /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
+		D498EC0650E111FA3393226F /* TXViewKeyboardResizer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXViewKeyboardResizer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62E7812A0CB18D612702066 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
+		D66016311D9B7A915079D0D0 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
+		DB586F8D89EC0930D2316FE9 /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
+		DBF4B32FECF751FFA3A7E461 /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
+		DFA70A1F2D3D8549EEE54BFB /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
+		E0E4BF34A7FB917B14969D31 /* TXViewKeyboardResizer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXViewKeyboardResizer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2223213258A33FD9BF11BD4 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
+		E3194C58DDC4AD0CF05AE9FC /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
+		E3DEA4EBCC2B2D9F1407EAAE /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
+		E54380ED1706770D6D6BC211 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6F19B7116205B23F5CB6A64 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
+		E740D52B64148B399D784356 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
+		E7A71D5CC5811FB18E4FF0CE /* Pods-TXViewKeyboardResizer_Tests-Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXViewKeyboardResizer_Tests-Specta-dummy.m"; sourceTree = "<group>"; };
+		E8629505AD035FBD2F263789 /* Pods_TXViewKeyboardResizer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TXViewKeyboardResizer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDCFA76EB4F70D3BBBC0ABF /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
+		F0968434988120F0077236B1 /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
+		F222B234496952AD3F03880D /* Pods-TXViewKeyboardResizer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXViewKeyboardResizer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F63741BC60E27BD807391B0A /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer.xcconfig"; sourceTree = "<group>"; };
+		F96C8D60F5A2C836FA7B6AF3 /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
+		FA4661EA4B0684DE0D5F8C71 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
+		FA980787A7860F711CFBAE8B /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
+		FB3CBD67C9D01E3E225A11F4 /* Pods-TXViewKeyboardResizer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXViewKeyboardResizer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FC3044EADB13D40FEEAEB771 /* Pods-TXViewKeyboardResizer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXViewKeyboardResizer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		454A7B5FCAB02531C9B051E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7515C4F1E71141554C7213CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A56D3DB9739AA503E916139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09B77308FF2247951A36F7A /* Foundation.framework in Frameworks */,
+				66F8EF42C818AB9FE8834E6B /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B727F2B4B14670ADB8D85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC75451DBAE4DEF885B1A7B2 /* Foundation.framework in Frameworks */,
+				D2A23A4CB3E73D4B740166D8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8375CA53BF78D28EBD91E120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC3203FD2C07EB250AFCE7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9877D4FD09BE7E6B0F24E6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3281F64953BE1ED92D22A5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1293BAEF9115B60D2940756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71733A1B5B29BC2635D21B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D496B882384D36E9042892 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C3DADCDBD63B57D7312AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0077E87BC14EC7E2F095313F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC4E5AEF550AE7E398211375 /* Pods-TXViewKeyboardResizer_Example */,
+				EB56132E257FD40644582212 /* Pods-TXViewKeyboardResizer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		00AF65918AAED0EF0515D5FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C010418A5C5F22CA1819A12 /* Expecta.framework */,
+				C683E4D08AFD252B42DE3FE8 /* Pods_TXViewKeyboardResizer_Example.framework */,
+				E8629505AD035FBD2F263789 /* Pods_TXViewKeyboardResizer_Tests.framework */,
+				CA592DAE0EE9D1DDEBC961F8 /* Specta.framework */,
+				D498EC0650E111FA3393226F /* TXViewKeyboardResizer.bundle */,
+				E0E4BF34A7FB917B14969D31 /* TXViewKeyboardResizer.bundle */,
+				65CFDF7D39F219ADA0000740 /* TXViewKeyboardResizer.framework */,
+				CCAEB98C75A5E7C271FFDC0E /* TXViewKeyboardResizer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15FA66E65019B18B46105799 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CCEB7E9B5B7B581A30A7276 /* Info.plist */,
+				AF6F1CF67DA8B1E4C283B276 /* Pods-TXViewKeyboardResizer_Tests-Expecta.modulemap */,
+				938A1276C95588675504D062 /* Pods-TXViewKeyboardResizer_Tests-Expecta.xcconfig */,
+				8FB8E0266163712CCE97515B /* Pods-TXViewKeyboardResizer_Tests-Expecta-Private.xcconfig */,
+				A489F7D63244BA3AE1E2B864 /* Pods-TXViewKeyboardResizer_Tests-Expecta-dummy.m */,
+				179BAE6BD60C2784878C8415 /* Pods-TXViewKeyboardResizer_Tests-Expecta-prefix.pch */,
+				83D5B64567CA16162ECC6F7B /* Pods-TXViewKeyboardResizer_Tests-Expecta-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TXViewKeyboardResizer_Tests-Expecta";
+			sourceTree = "<group>";
+		};
+		28B8DB23B22CA8F770E2A775 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EA4DB796A2F78218393BF44 /* Info.plist */,
+				58A371D2FE46A1B7A4185409 /* Info.plist */,
+				4218E232864D35FBC7753A3D /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer.modulemap */,
+				F63741BC60E27BD807391B0A /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer.xcconfig */,
+				3076D205AF8FDA577B74637E /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-Private.xcconfig */,
+				0C8FB6309370EC39018DBC6C /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-dummy.m */,
+				94E8B5CD2953A4EEE758C073 /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-prefix.pch */,
+				907BFAFA40F433BF37F0F780 /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-umbrella.h */,
+				7E1E6393E9113ADE4F638C2C /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer.modulemap */,
+				63B442654F995FC5AF10FDB3 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer.xcconfig */,
+				896D25C654F6C1976EFBE7E0 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-Private.xcconfig */,
+				A17095C7AC3CF2CB44AAEAF6 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-dummy.m */,
+				5BFE9FE9E019D79543C4D62E /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-prefix.pch */,
+				0CA8DBE4107F888198B92BC3 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer";
+			sourceTree = "<group>";
+		};
+		2E5732AC6E865F8D3156A55E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9F5294187F2A11763F8126E /* Expecta */,
+				CF0C714DB02DB8D1FB808174 /* Specta */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35C2708555A4B6CC6EC92CCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC33920A228579043ECCF811 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B73472611FF6E8EEE42C5E7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F486EFD8247443247D8C0D0 /* UIView+KeyboardResizer.h */,
+				650B6CA49033EF50081B99B8 /* UIView+KeyboardResizer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C5DB2934ACCC0DA593AD9CE /* TXViewKeyboardResizer */ = {
+			isa = PBXGroup;
+			children = (
+				F7A61FE907FADE87CED861FD /* Pod */,
+				28B8DB23B22CA8F770E2A775 /* Support Files */,
+			);
+			name = TXViewKeyboardResizer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		98FF201E5334484F8F6FCD95 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C5DB2934ACCC0DA593AD9CE /* TXViewKeyboardResizer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC33920A228579043ECCF811 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				42C44ECF2CC1FFD468BD2469 /* Foundation.framework */,
+				6915595897D9F7E4D5312918 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9F5294187F2A11763F8126E /* Expecta */ = {
+			isa = PBXGroup;
+			children = (
+				C6E621D9F27B4D33F20D1768 /* EXPBlockDefinedMatcher.h */,
+				7F1789BBD8BC4E09A5609EB0 /* EXPBlockDefinedMatcher.m */,
+				34B4EE5ACE08082C57DC5471 /* EXPDefines.h */,
+				06069AF38088D23E73ADBD48 /* EXPDoubleTuple.h */,
+				DB586F8D89EC0930D2316FE9 /* EXPDoubleTuple.m */,
+				A5B2AC321493ACBBB1BF9280 /* EXPExpect.h */,
+				ACF03279892315B17B8D6348 /* EXPExpect.m */,
+				8D371D226204D83F805A413A /* EXPFloatTuple.h */,
+				BCC10EBD11870DE3E5EFCF2C /* EXPFloatTuple.m */,
+				DBF4B32FECF751FFA3A7E461 /* EXPMatcher.h */,
+				15B4FDEFD9E068F76E3E677B /* EXPMatcherHelpers.h */,
+				95AAA8DD845E1C45EF899774 /* EXPMatcherHelpers.m */,
+				FA980787A7860F711CFBAE8B /* EXPMatchers.h */,
+				A07171A34A6E6C48ADF46B33 /* EXPMatchers+beCloseTo.h */,
+				BEC590001A2C6B0EDD5AFF57 /* EXPMatchers+beCloseTo.m */,
+				AFE2FB022A81959173646FF1 /* EXPMatchers+beFalsy.h */,
+				2040D96E06337B4F91CF3703 /* EXPMatchers+beFalsy.m */,
+				FA4661EA4B0684DE0D5F8C71 /* EXPMatchers+beGreaterThan.h */,
+				6086F55EADCC2099C22C0FDE /* EXPMatchers+beGreaterThan.m */,
+				E740D52B64148B399D784356 /* EXPMatchers+beGreaterThanOrEqualTo.h */,
+				82A2C29A0EA7880D3B90A0F1 /* EXPMatchers+beGreaterThanOrEqualTo.m */,
+				C09F9C7D4BA607016A9AD5E4 /* EXPMatchers+beIdenticalTo.h */,
+				4AD573DE2D1BB51F1B671B1F /* EXPMatchers+beIdenticalTo.m */,
+				6F05B48BDBD48D81970E5E23 /* EXPMatchers+beInTheRangeOf.h */,
+				90CF6A9E037E54E40F72BE51 /* EXPMatchers+beInTheRangeOf.m */,
+				77CBFC5A5D7E6F31900F8030 /* EXPMatchers+beInstanceOf.h */,
+				741186AE82FBD84441F30B78 /* EXPMatchers+beInstanceOf.m */,
+				E6F19B7116205B23F5CB6A64 /* EXPMatchers+beKindOf.h */,
+				B243D8C4EF04DBD96CDAA61D /* EXPMatchers+beKindOf.m */,
+				19093E08151FA1E97BE54C67 /* EXPMatchers+beLessThan.h */,
+				C8FA6DBE8A4FC49454FCAF49 /* EXPMatchers+beLessThan.m */,
+				CF1F89D9EAB40AE8E1DE6FED /* EXPMatchers+beLessThanOrEqualTo.h */,
+				F0968434988120F0077236B1 /* EXPMatchers+beLessThanOrEqualTo.m */,
+				B1B162F9E47C34CA49BD9C1E /* EXPMatchers+beNil.h */,
+				C00C5D04D7A62A3F560C328C /* EXPMatchers+beNil.m */,
+				8221EFB36FDDA7151F69410C /* EXPMatchers+beSubclassOf.h */,
+				905AFFB4810120E358195A44 /* EXPMatchers+beSubclassOf.m */,
+				812B8BB01DB0FF90CB6C4875 /* EXPMatchers+beSupersetOf.h */,
+				A68E1E7441C0E6231CD8EB3C /* EXPMatchers+beSupersetOf.m */,
+				E2223213258A33FD9BF11BD4 /* EXPMatchers+beTruthy.h */,
+				145A3428C2F8A49C9368E32F /* EXPMatchers+beTruthy.m */,
+				6C19EAA692E892571E04DDF7 /* EXPMatchers+beginWith.h */,
+				C13F2E4CCD713FB4B9FF3FDC /* EXPMatchers+beginWith.m */,
+				154288D912F2921B1E886060 /* EXPMatchers+conformTo.h */,
+				2EE4445C0C28F55854A3117D /* EXPMatchers+conformTo.m */,
+				5D668E16AB10A5F2377C6772 /* EXPMatchers+contain.h */,
+				98F798D726A8A4994B954DAB /* EXPMatchers+contain.m */,
+				BD436D395754B4A2493375CA /* EXPMatchers+endWith.h */,
+				995280BF6E638B78CC45CF43 /* EXPMatchers+endWith.m */,
+				8167E319CE02B0BB5A04E2C5 /* EXPMatchers+equal.h */,
+				ECDCFA76EB4F70D3BBBC0ABF /* EXPMatchers+equal.m */,
+				12C76CA4767B500702001B48 /* EXPMatchers+haveCountOf.h */,
+				B0FA738E1C45A0979F7CCC6B /* EXPMatchers+haveCountOf.m */,
+				649062849146ADF4A2C36B3E /* EXPMatchers+match.h */,
+				64FD0C27606B02A3A176D333 /* EXPMatchers+match.m */,
+				117D894BD069792A41911FCE /* EXPMatchers+postNotification.h */,
+				8A8B934D864A2A7012335347 /* EXPMatchers+postNotification.m */,
+				C0FAD9C9C21B18F99ADE82E3 /* EXPMatchers+raise.h */,
+				4FA7DC41F7662828643749F3 /* EXPMatchers+raise.m */,
+				31A57A0A853F297979066FA8 /* EXPMatchers+raiseWithReason.h */,
+				036E3110A7FDBF2D8812B671 /* EXPMatchers+raiseWithReason.m */,
+				C09D8ADFFE591DF3894A2C8A /* EXPMatchers+respondTo.h */,
+				408FF706B0991B5435145ABA /* EXPMatchers+respondTo.m */,
+				259926E35560BBAA71C12346 /* EXPUnsupportedObject.h */,
+				A5361B1F9A6F890C8336B620 /* EXPUnsupportedObject.m */,
+				19707923F6DB8C7D09F2B36D /* Expecta.h */,
+				B659BB2EB04E980E87613513 /* ExpectaObject.h */,
+				25501FF54E259CC837C41DCE /* ExpectaObject.m */,
+				DFA70A1F2D3D8549EEE54BFB /* ExpectaSupport.h */,
+				22E9549FC5CB4D101EAA7E25 /* ExpectaSupport.m */,
+				A31327E4289CB2DE99F71EDB /* NSObject+Expecta.h */,
+				AE917BFAC9EB825CFB6CA629 /* NSValue+Expecta.h */,
+				BAADBE67FE8C49BEA811DE65 /* NSValue+Expecta.m */,
+				15FA66E65019B18B46105799 /* Support Files */,
+			);
+			path = Expecta;
+			sourceTree = "<group>";
+		};
+		CF0C714DB02DB8D1FB808174 /* Specta */ = {
+			isa = PBXGroup;
+			children = (
+				7B1AB590E4DBD0344EB8C825 /* SPTCallSite.h */,
+				E3194C58DDC4AD0CF05AE9FC /* SPTCallSite.m */,
+				500C656030C3171F6721B366 /* SPTCompiledExample.h */,
+				91DFFF4AF211C62795545AC3 /* SPTCompiledExample.m */,
+				6C34AA65DF9EAB1F4F38D186 /* SPTExample.h */,
+				D66016311D9B7A915079D0D0 /* SPTExample.m */,
+				3BB89158ABEE321BABA0DD42 /* SPTExampleGroup.h */,
+				D62E7812A0CB18D612702066 /* SPTExampleGroup.m */,
+				AC6BB4CC9125F94022981AC9 /* SPTExcludeGlobalBeforeAfterEach.h */,
+				87E3ED57F5A7B76477A8263C /* SPTGlobalBeforeAfterEach.h */,
+				0EE00796E22F8A5A354A8832 /* SPTSharedExampleGroups.h */,
+				623D7BD78EC5F18559E505F3 /* SPTSharedExampleGroups.m */,
+				9057E6F46FCD674471F45966 /* SPTSpec.h */,
+				AE7FF752E1B11A7167DFFB0E /* SPTSpec.m */,
+				914C964130C51F26BC5B5939 /* SPTTestSuite.h */,
+				E3DEA4EBCC2B2D9F1407EAAE /* SPTTestSuite.m */,
+				79338B5D89FEB5424596CACE /* Specta.h */,
+				F96C8D60F5A2C836FA7B6AF3 /* SpectaDSL.h */,
+				8ABBB686536B9BBDEF26D503 /* SpectaDSL.m */,
+				2B7C1AAAB3BA9EA7DF153B18 /* SpectaTypes.h */,
+				7B03F5D70208CB8AA9A5BDA3 /* SpectaUtility.h */,
+				7368F0F96AE923770FCA5FF9 /* SpectaUtility.m */,
+				4405C3B58367B734CB649014 /* XCTest+Private.h */,
+				51E5D66049B43389B0092828 /* XCTestCase+Specta.h */,
+				83C60AFA59D13C42B478C635 /* XCTestCase+Specta.m */,
+				D0DFFC098E51E27B96DDF351 /* Support Files */,
+			);
+			path = Specta;
+			sourceTree = "<group>";
+		};
+		CFAAF8C959D9725841C97157 = {
+			isa = PBXGroup;
+			children = (
+				E54380ED1706770D6D6BC211 /* Podfile */,
+				98FF201E5334484F8F6FCD95 /* Development Pods */,
+				35C2708555A4B6CC6EC92CCC /* Frameworks */,
+				2E5732AC6E865F8D3156A55E /* Pods */,
+				00AF65918AAED0EF0515D5FC /* Products */,
+				0077E87BC14EC7E2F095313F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DFFC098E51E27B96DDF351 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1869B6E797CA3332E70F5 /* Info.plist */,
+				CECC74EC9E9C8B0F547D6324 /* Pods-TXViewKeyboardResizer_Tests-Specta.modulemap */,
+				6C45FD6AE8C5F208562EBE47 /* Pods-TXViewKeyboardResizer_Tests-Specta.xcconfig */,
+				B5C6E90EC2793DB8E1880061 /* Pods-TXViewKeyboardResizer_Tests-Specta-Private.xcconfig */,
+				E7A71D5CC5811FB18E4FF0CE /* Pods-TXViewKeyboardResizer_Tests-Specta-dummy.m */,
+				C724CE8BE539C3FD3A0929C1 /* Pods-TXViewKeyboardResizer_Tests-Specta-prefix.pch */,
+				46AC9835AB40E277FD5B78ED /* Pods-TXViewKeyboardResizer_Tests-Specta-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TXViewKeyboardResizer_Tests-Specta";
+			sourceTree = "<group>";
+		};
+		EB56132E257FD40644582212 /* Pods-TXViewKeyboardResizer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				71EF9B3B2159222D7BE51AAE /* Info.plist */,
+				65A928A1C9D46CF9301EB63E /* Pods-TXViewKeyboardResizer_Tests.modulemap */,
+				F222B234496952AD3F03880D /* Pods-TXViewKeyboardResizer_Tests-acknowledgements.markdown */,
+				667475A4B1782A209A6BB5C1 /* Pods-TXViewKeyboardResizer_Tests-acknowledgements.plist */,
+				9C1066DEAF4083AF5FD4F9AF /* Pods-TXViewKeyboardResizer_Tests-dummy.m */,
+				28FC2CFED7B96701EB481667 /* Pods-TXViewKeyboardResizer_Tests-environment.h */,
+				35D652D04A1BF2A8B8C50EE3 /* Pods-TXViewKeyboardResizer_Tests-frameworks.sh */,
+				C4196713029211E736526C62 /* Pods-TXViewKeyboardResizer_Tests-resources.sh */,
+				A17535DEE7C4FDDA52574FCE /* Pods-TXViewKeyboardResizer_Tests-umbrella.h */,
+				9E159AEC64D7B25FC3AC806F /* Pods-TXViewKeyboardResizer_Tests.debug.xcconfig */,
+				FB3CBD67C9D01E3E225A11F4 /* Pods-TXViewKeyboardResizer_Tests.release.xcconfig */,
+			);
+			name = "Pods-TXViewKeyboardResizer_Tests";
+			path = "Target Support Files/Pods-TXViewKeyboardResizer_Tests";
+			sourceTree = "<group>";
+		};
+		EC4E5AEF550AE7E398211375 /* Pods-TXViewKeyboardResizer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CC27C63D852DC55EF66E7E01 /* Info.plist */,
+				5689FE41BFCAF07B9F92F6AB /* Pods-TXViewKeyboardResizer_Example.modulemap */,
+				FC3044EADB13D40FEEAEB771 /* Pods-TXViewKeyboardResizer_Example-acknowledgements.markdown */,
+				9CA762EA1A96F6946F46C269 /* Pods-TXViewKeyboardResizer_Example-acknowledgements.plist */,
+				CBCF92479AFE95D901CD387F /* Pods-TXViewKeyboardResizer_Example-dummy.m */,
+				74FE2CE9850752B40C6C6682 /* Pods-TXViewKeyboardResizer_Example-environment.h */,
+				0A23258D9D909B941470A297 /* Pods-TXViewKeyboardResizer_Example-frameworks.sh */,
+				24F1EE8048201438777B6089 /* Pods-TXViewKeyboardResizer_Example-resources.sh */,
+				502F8F1818733F03D0E52CB9 /* Pods-TXViewKeyboardResizer_Example-umbrella.h */,
+				3B921D63C48D326BF3427643 /* Pods-TXViewKeyboardResizer_Example.debug.xcconfig */,
+				61215982EBC17EA96151A235 /* Pods-TXViewKeyboardResizer_Example.release.xcconfig */,
+			);
+			name = "Pods-TXViewKeyboardResizer_Example";
+			path = "Target Support Files/Pods-TXViewKeyboardResizer_Example";
+			sourceTree = "<group>";
+		};
+		F7A61FE907FADE87CED861FD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3B73472611FF6E8EEE42C5E7 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		395EAF3A67A3CD1023FBBD6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0A31172CD14709465495F3 /* EXPBlockDefinedMatcher.h in Headers */,
+				1A740699ADD4F92BD0A0D143 /* EXPDefines.h in Headers */,
+				7A481458059097B3B65B865C /* EXPDoubleTuple.h in Headers */,
+				BF4A26DB9A95FF35BC8516CA /* EXPExpect.h in Headers */,
+				2B10F5EF6391E3A2230ED10A /* EXPFloatTuple.h in Headers */,
+				BDEE4EA1E41D4C07A255E0CC /* EXPMatcher.h in Headers */,
+				D6F19787A0FA71A60F189BDA /* EXPMatcherHelpers.h in Headers */,
+				FC90452E286F6FD03B38B2D5 /* EXPMatchers+beCloseTo.h in Headers */,
+				E759A1EAAFDA99C7B9EE68AA /* EXPMatchers+beFalsy.h in Headers */,
+				C3667661A2A9B6127B54BE70 /* EXPMatchers+beGreaterThan.h in Headers */,
+				F4197A73FF81BFA073CE1AE3 /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */,
+				23346A9599EB87A64E114A37 /* EXPMatchers+beIdenticalTo.h in Headers */,
+				983C998001802492D55127BF /* EXPMatchers+beInTheRangeOf.h in Headers */,
+				5164ECB65EE71D5952ED2E7A /* EXPMatchers+beInstanceOf.h in Headers */,
+				A83889C20F594966CC96E1B7 /* EXPMatchers+beKindOf.h in Headers */,
+				FB5B65227EECD76A35ED7266 /* EXPMatchers+beLessThan.h in Headers */,
+				1B12B77B908356FEF477319F /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
+				FC3D7DA840C2F89C4FBA2DF1 /* EXPMatchers+beNil.h in Headers */,
+				564B9794D21FB80D4F05F27B /* EXPMatchers+beSubclassOf.h in Headers */,
+				20DBC22A00462F815BBEEE2A /* EXPMatchers+beSupersetOf.h in Headers */,
+				CC7E5B2AB561D76DC1609335 /* EXPMatchers+beTruthy.h in Headers */,
+				57E4379353120FE10A57B18B /* EXPMatchers+beginWith.h in Headers */,
+				F55121FA3B55A74AB4C689A3 /* EXPMatchers+conformTo.h in Headers */,
+				A53206F1892E6DF87C55047E /* EXPMatchers+contain.h in Headers */,
+				FC510F452D590E7021563DF8 /* EXPMatchers+endWith.h in Headers */,
+				EFAABAF16EE740AFB2EC1F65 /* EXPMatchers+equal.h in Headers */,
+				DB64C7A6F8D8593116F38411 /* EXPMatchers+haveCountOf.h in Headers */,
+				ED54AC277E1508CC663BD645 /* EXPMatchers+match.h in Headers */,
+				A7DA86B44D0AEDADFD6A07B9 /* EXPMatchers+postNotification.h in Headers */,
+				52F8BFD4483DCB9CFA966C6A /* EXPMatchers+raise.h in Headers */,
+				D382B68B6FFC6F8BE19AE3A6 /* EXPMatchers+raiseWithReason.h in Headers */,
+				54A32DCF5963459463118E58 /* EXPMatchers+respondTo.h in Headers */,
+				D3398CD3A1FC15E5F9CCFF95 /* EXPMatchers.h in Headers */,
+				61766125598E104E5E30D592 /* EXPUnsupportedObject.h in Headers */,
+				B5909D53EBA0660C9DB8B0B0 /* Expecta.h in Headers */,
+				8B7F4A05B85F8405CD61DA93 /* ExpectaObject.h in Headers */,
+				E016D4F05B0E36407334A915 /* ExpectaSupport.h in Headers */,
+				342BB056BFCEAF5B3093D6D4 /* NSObject+Expecta.h in Headers */,
+				18BCA2F83D9DA722939432B2 /* NSValue+Expecta.h in Headers */,
+				B11DCE935CB635B2B82E8CC2 /* Pods-TXViewKeyboardResizer_Tests-Expecta-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4725FBCCF908756552BAF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE52B936F48D07F4102A9BB /* Pods-TXViewKeyboardResizer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4D979491B2A2EA94AF845A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C3E4FFD218B61E868F85B9 /* Pods-TXViewKeyboardResizer_Tests-Specta-umbrella.h in Headers */,
+				6F2A8D43034C34C50C991E5A /* SPTCallSite.h in Headers */,
+				345F0241E15BDE9603597324 /* SPTCompiledExample.h in Headers */,
+				8CE0D5A869176D81EEAF6393 /* SPTExample.h in Headers */,
+				BD847EEF043F27BF3017333A /* SPTExampleGroup.h in Headers */,
+				5C0CF5D432BD0F571E1D419C /* SPTExcludeGlobalBeforeAfterEach.h in Headers */,
+				C4A295CE6C23CFD3BF11C287 /* SPTGlobalBeforeAfterEach.h in Headers */,
+				E56F45EB754A0AD059113E26 /* SPTSharedExampleGroups.h in Headers */,
+				AC8F84BEBE3E4D106070DBE0 /* SPTSpec.h in Headers */,
+				246ACD612736C48F0AFD6128 /* SPTTestSuite.h in Headers */,
+				CF9ADA895DFFAA5A0AAF6C90 /* Specta.h in Headers */,
+				53DF19147D292A98494BE650 /* SpectaDSL.h in Headers */,
+				438F5FFE93A4ADC9E0FFD58F /* SpectaTypes.h in Headers */,
+				052ACF5FE1CEEE0257B2BBD1 /* SpectaUtility.h in Headers */,
+				11DCF25982A6D09F8ED021B1 /* XCTest+Private.h in Headers */,
+				56023D5E1F3492D43535F692 /* XCTestCase+Specta.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8061F64F0EF6D75F0003A92F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A10AFB34D584727697841C0 /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-umbrella.h in Headers */,
+				5AD02C72D294F91B85256DFF /* UIView+KeyboardResizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA7E80B2014FCC9A016C3F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B16275E5ED84D2717460AE6 /* Pods-TXViewKeyboardResizer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF9B3DC25BF545C12D8352 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C53FECF7D2257B3C913BCDF /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-umbrella.h in Headers */,
+				F3BCC95D890B23976878A920 /* UIView+KeyboardResizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D6F2E9165EB70D549AB438A /* Pods-TXViewKeyboardResizer_Tests-Expecta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93252B876F7BCC115DA8D527 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Tests-Expecta" */;
+			buildPhases = (
+				07AA816669033B822C33FB84 /* Sources */,
+				82B727F2B4B14670ADB8D85F /* Frameworks */,
+				395EAF3A67A3CD1023FBBD6D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TXViewKeyboardResizer_Tests-Expecta";
+			productName = "Pods-TXViewKeyboardResizer_Tests-Expecta";
+			productReference = 8C010418A5C5F22CA1819A12 /* Expecta.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1EF860A03AE7CEA8FD36E968 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-TXViewKeyboardResizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DCC90BAD601EB7F74A1BEB /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-TXViewKeyboardResizer" */;
+			buildPhases = (
+				7D295B6FB6A6B54FBAF8C47D /* Sources */,
+				C1293BAEF9115B60D2940756 /* Frameworks */,
+				AEDF22BFAE0B055E5A714427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-TXViewKeyboardResizer";
+			productName = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-TXViewKeyboardResizer";
+			productReference = D498EC0650E111FA3393226F /* TXViewKeyboardResizer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4BEA04F45B8C8AB2E72BF2AC /* Pods-TXViewKeyboardResizer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532E88F054263EF1A662A5F5 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Tests" */;
+			buildPhases = (
+				6B9394E1306FA5F7BF69B972 /* Sources */,
+				454A7B5FCAB02531C9B051E7 /* Frameworks */,
+				BFA7E80B2014FCC9A016C3F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B1349BA04FC22D779B26DC /* PBXTargetDependency */,
+				08D3E4521153818160AD5D92 /* PBXTargetDependency */,
+				69FBD3214538C9F0A470492F /* PBXTargetDependency */,
+			);
+			name = "Pods-TXViewKeyboardResizer_Tests";
+			productName = "Pods-TXViewKeyboardResizer_Tests";
+			productReference = E8629505AD035FBD2F263789 /* Pods_TXViewKeyboardResizer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EBA0F402E0F5F6CADF0F63A /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EBE6591A76A1EE9B0EF008 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer" */;
+			buildPhases = (
+				100D8B86E172531A2D01B27B /* Sources */,
+				8375CA53BF78D28EBD91E120 /* Frameworks */,
+				57C6CB9FC8843872B58B109B /* Resources */,
+				EEDF9B3DC25BF545C12D8352 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572380BEA3BBA414AC94A60D /* PBXTargetDependency */,
+			);
+			name = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer";
+			productName = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer";
+			productReference = 65CFDF7D39F219ADA0000740 /* TXViewKeyboardResizer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		973CCD3821B77606FBE18823 /* Pods-TXViewKeyboardResizer_Tests-Specta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08214586B8665CC39CA33F6 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Tests-Specta" */;
+			buildPhases = (
+				9DF97AF6F981BD16AF900061 /* Sources */,
+				5A56D3DB9739AA503E916139 /* Frameworks */,
+				6F4D979491B2A2EA94AF845A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TXViewKeyboardResizer_Tests-Specta";
+			productName = "Pods-TXViewKeyboardResizer_Tests-Specta";
+			productReference = CA592DAE0EE9D1DDEBC961F8 /* Specta.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EDC8DDFCF33F9EA9629A92B /* Pods-TXViewKeyboardResizer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C179E93DD8883571E5DC16 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Example" */;
+			buildPhases = (
+				554DB108CB6D6743999D1307 /* Sources */,
+				9877D4FD09BE7E6B0F24E6A8 /* Frameworks */,
+				6E4725FBCCF908756552BAF1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E9DA844B535867D468FDE6D /* PBXTargetDependency */,
+			);
+			name = "Pods-TXViewKeyboardResizer_Example";
+			productName = "Pods-TXViewKeyboardResizer_Example";
+			productReference = C683E4D08AFD252B42DE3FE8 /* Pods_TXViewKeyboardResizer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0C8BCF1EDF2115D45C5442E /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-TXViewKeyboardResizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6998B44A6B3D194A5D022B4F /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-TXViewKeyboardResizer" */;
+			buildPhases = (
+				DB50444DB44F1970E17BD29F /* Sources */,
+				F7C3DADCDBD63B57D7312AEA /* Frameworks */,
+				B0A4DE58523007C6075CCB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-TXViewKeyboardResizer";
+			productName = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-TXViewKeyboardResizer";
+			productReference = E0E4BF34A7FB917B14969D31 /* TXViewKeyboardResizer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C389AA5425EEAB699DAC98EB /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3AB2B659D2643124C6B07 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer" */;
+			buildPhases = (
+				1AEF4E9B26C8807CEA0743D9 /* Sources */,
+				E71733A1B5B29BC2635D21B8 /* Frameworks */,
+				D91E95DE0BD1985A75A6C3F3 /* Resources */,
+				8061F64F0EF6D75F0003A92F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35F5D90795C2510DF9AFC65 /* PBXTargetDependency */,
+			);
+			name = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer";
+			productName = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer";
+			productReference = CCAEB98C75A5E7C271FFDC0E /* TXViewKeyboardResizer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F981E469B52C174CCF2125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = AAE109B184023600C841DF64 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFAAF8C959D9725841C97157;
+			productRefGroup = 00AF65918AAED0EF0515D5FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EDC8DDFCF33F9EA9629A92B /* Pods-TXViewKeyboardResizer_Example */,
+				C389AA5425EEAB699DAC98EB /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer */,
+				C0C8BCF1EDF2115D45C5442E /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-TXViewKeyboardResizer */,
+				4BEA04F45B8C8AB2E72BF2AC /* Pods-TXViewKeyboardResizer_Tests */,
+				1D6F2E9165EB70D549AB438A /* Pods-TXViewKeyboardResizer_Tests-Expecta */,
+				973CCD3821B77606FBE18823 /* Pods-TXViewKeyboardResizer_Tests-Specta */,
+				8EBA0F402E0F5F6CADF0F63A /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer */,
+				1EF860A03AE7CEA8FD36E968 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-TXViewKeyboardResizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C6CB9FC8843872B58B109B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E0DFABA44D9546C2E4168D /* TXViewKeyboardResizer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDF22BFAE0B055E5A714427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A4DE58523007C6075CCB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91E95DE0BD1985A75A6C3F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2651A877C0C4BA2BE7AAF3C1 /* TXViewKeyboardResizer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07AA816669033B822C33FB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7878E9DA8CC28F3C12AC3324 /* EXPBlockDefinedMatcher.m in Sources */,
+				05D421D0BD7AB95BDE337B2A /* EXPDoubleTuple.m in Sources */,
+				999AF3E315784B95DFFD9526 /* EXPExpect.m in Sources */,
+				B73B041392D9E0B4B4BB89A0 /* EXPFloatTuple.m in Sources */,
+				3348D5F11CB852AE98D608C4 /* EXPMatcherHelpers.m in Sources */,
+				9CFDBDF8194EE25BC4DB53C3 /* EXPMatchers+beCloseTo.m in Sources */,
+				2234B6CBECD94641D6624D17 /* EXPMatchers+beFalsy.m in Sources */,
+				C0B99F46A0E9D698E1ADE5DA /* EXPMatchers+beGreaterThan.m in Sources */,
+				83021DF0EBAF4B574A3B633A /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */,
+				9C4690AF35AFC912A43AD765 /* EXPMatchers+beIdenticalTo.m in Sources */,
+				3199C477913119BDF55B3BD2 /* EXPMatchers+beInTheRangeOf.m in Sources */,
+				E88E5E475A4835F3366BB8D5 /* EXPMatchers+beInstanceOf.m in Sources */,
+				EB784CEB1B1F1A839EF79965 /* EXPMatchers+beKindOf.m in Sources */,
+				BD695A49B2774A21CFD3F304 /* EXPMatchers+beLessThan.m in Sources */,
+				F37FAFA2E30591B9F9CA8481 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */,
+				4DB61E16F8D5BCFA552A110C /* EXPMatchers+beNil.m in Sources */,
+				A84AEE52D409E411F87C9986 /* EXPMatchers+beSubclassOf.m in Sources */,
+				12848F20B6D28A3D0EAA9621 /* EXPMatchers+beSupersetOf.m in Sources */,
+				A3E12E0B144C070F345E2C93 /* EXPMatchers+beTruthy.m in Sources */,
+				95EB5B4683313B8C70C06499 /* EXPMatchers+beginWith.m in Sources */,
+				D4DF8971EA93D493AA014546 /* EXPMatchers+conformTo.m in Sources */,
+				BF4D44354BD6A68D7C0C5DDE /* EXPMatchers+contain.m in Sources */,
+				935694492A3787CD318F30E5 /* EXPMatchers+endWith.m in Sources */,
+				A3A1EAB1D34AAEAFAEF0267F /* EXPMatchers+equal.m in Sources */,
+				24D1FD01354218E59295549C /* EXPMatchers+haveCountOf.m in Sources */,
+				FDE5674DEDF910D6F05607B2 /* EXPMatchers+match.m in Sources */,
+				3E72FFEEE82EB1E85E3AC07E /* EXPMatchers+postNotification.m in Sources */,
+				44D8BBFC141AE9C9E607AB1F /* EXPMatchers+raise.m in Sources */,
+				5136BDFB452943EF44B70651 /* EXPMatchers+raiseWithReason.m in Sources */,
+				7A9F2E3BB2278616EB6829FF /* EXPMatchers+respondTo.m in Sources */,
+				BA6EB3EFB6321ABD157EF023 /* EXPUnsupportedObject.m in Sources */,
+				7C4514B9BFCD363A07D944DA /* ExpectaObject.m in Sources */,
+				E44574E6EF09A63B5DE508A6 /* ExpectaSupport.m in Sources */,
+				5D22F30117C95556B2D92978 /* NSValue+Expecta.m in Sources */,
+				289DC9B77A53A2099E94A373 /* Pods-TXViewKeyboardResizer_Tests-Expecta-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100D8B86E172531A2D01B27B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB22665EE1DE7F36ACA3F2C6 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-dummy.m in Sources */,
+				DC08385DC71B8E9D19FEAFC1 /* UIView+KeyboardResizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEF4E9B26C8807CEA0743D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFF7BF51CF24618C8751527 /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-dummy.m in Sources */,
+				BF994017A47D8BC77159A241 /* UIView+KeyboardResizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554DB108CB6D6743999D1307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A796D14230B85C560E2E61 /* Pods-TXViewKeyboardResizer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9394E1306FA5F7BF69B972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65FCFC42C3CB1A331E87699 /* Pods-TXViewKeyboardResizer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D295B6FB6A6B54FBAF8C47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF97AF6F981BD16AF900061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE590D49703DCDF032257F2 /* Pods-TXViewKeyboardResizer_Tests-Specta-dummy.m in Sources */,
+				5B799481353280F5E63860B6 /* SPTCallSite.m in Sources */,
+				4049123B63B296F4A22CB1B2 /* SPTCompiledExample.m in Sources */,
+				B9078433E56849B45E0A3752 /* SPTExample.m in Sources */,
+				334BFF53F23E7141D49E12ED /* SPTExampleGroup.m in Sources */,
+				CF38E79A455E66236560246B /* SPTSharedExampleGroups.m in Sources */,
+				AE1B448F89BCFB5EA4515595 /* SPTSpec.m in Sources */,
+				78C716A56B993F0884933998 /* SPTTestSuite.m in Sources */,
+				939CA370103004025FADE9B0 /* SpectaDSL.m in Sources */,
+				7EB948F7E9CDECC84B06BEB8 /* SpectaUtility.m in Sources */,
+				DC28BA04DE89DBF41B0E3A77 /* XCTestCase+Specta.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50444DB44F1970E17BD29F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08D3E4521153818160AD5D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TXViewKeyboardResizer_Tests-Specta";
+			target = 973CCD3821B77606FBE18823 /* Pods-TXViewKeyboardResizer_Tests-Specta */;
+			targetProxy = 3AA54F8BEF882F8C5977CF9E /* PBXContainerItemProxy */;
+		};
+		0E9DA844B535867D468FDE6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer";
+			target = C389AA5425EEAB699DAC98EB /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer */;
+			targetProxy = FED1DB0C2AF1E26376D0686F /* PBXContainerItemProxy */;
+		};
+		572380BEA3BBA414AC94A60D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-TXViewKeyboardResizer";
+			target = 1EF860A03AE7CEA8FD36E968 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-TXViewKeyboardResizer */;
+			targetProxy = BABB9738CB8A6BC29D8815FA /* PBXContainerItemProxy */;
+		};
+		69FBD3214538C9F0A470492F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer";
+			target = 8EBA0F402E0F5F6CADF0F63A /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer */;
+			targetProxy = 9EFF12CD9D4286F001A10501 /* PBXContainerItemProxy */;
+		};
+		C7B1349BA04FC22D779B26DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TXViewKeyboardResizer_Tests-Expecta";
+			target = 1D6F2E9165EB70D549AB438A /* Pods-TXViewKeyboardResizer_Tests-Expecta */;
+			targetProxy = 95625DB15818D515DD5ACF4B /* PBXContainerItemProxy */;
+		};
+		D35F5D90795C2510DF9AFC65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-TXViewKeyboardResizer";
+			target = C0C8BCF1EDF2115D45C5442E /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-TXViewKeyboardResizer */;
+			targetProxy = 301AD6448539D8FCE89FD672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		266C48E9777FEB7E9C8B0653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896D25C654F6C1976EFBE7E0 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TXViewKeyboardResizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E443CA5B9BC6102B94721A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896D25C654F6C1976EFBE7E0 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TXViewKeyboardResizer_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TXViewKeyboardResizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		30B8CB991B7722051373E42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B921D63C48D326BF3427643 /* Pods-TXViewKeyboardResizer_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Example/Pods-TXViewKeyboardResizer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TXViewKeyboardResizer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37ABC10077CF44634EFC4BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3076D205AF8FDA577B74637E /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TXViewKeyboardResizer_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TXViewKeyboardResizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		421E53A73D92D1B21A0943B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61215982EBC17EA96151A235 /* Pods-TXViewKeyboardResizer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Example/Pods-TXViewKeyboardResizer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TXViewKeyboardResizer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54FF6EEFF66BBBB26F9014CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C6E90EC2793DB8E1880061 /* Pods-TXViewKeyboardResizer_Tests-Specta-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Specta/Pods-TXViewKeyboardResizer_Tests-Specta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Specta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Specta/Pods-TXViewKeyboardResizer_Tests-Specta.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Specta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C3207EA1D3585C4C571C004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C6E90EC2793DB8E1880061 /* Pods-TXViewKeyboardResizer_Tests-Specta-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Specta/Pods-TXViewKeyboardResizer_Tests-Specta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Specta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Specta/Pods-TXViewKeyboardResizer_Tests-Specta.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Specta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7412A8B4E67FB300BB724B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896D25C654F6C1976EFBE7E0 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TXViewKeyboardResizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		969D2A2238B7145276E056A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3076D205AF8FDA577B74637E /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TXViewKeyboardResizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D1AB6EFB1A4295CBB6AFE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896D25C654F6C1976EFBE7E0 /* Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TXViewKeyboardResizer_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TXViewKeyboardResizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9D75B2E263393B3D35FAFA25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A5AEFF083AF436EA4363A876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB8E0266163712CCE97515B /* Pods-TXViewKeyboardResizer_Tests-Expecta-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Expecta/Pods-TXViewKeyboardResizer_Tests-Expecta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Expecta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Expecta/Pods-TXViewKeyboardResizer_Tests-Expecta.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Expecta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8AE296D9C834B080824C920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3076D205AF8FDA577B74637E /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TXViewKeyboardResizer_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TXViewKeyboardResizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B9C73211EA2CD4EA248B42F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3076D205AF8FDA577B74637E /* Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer/Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TXViewKeyboardResizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE908F2E94D1668A1DCBBEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3CBD67C9D01E3E225A11F4 /* Pods-TXViewKeyboardResizer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests/Pods-TXViewKeyboardResizer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TXViewKeyboardResizer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C31CBDD55C9F58507A36426B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF9A7FCD3C34EB576FA55C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E159AEC64D7B25FC3AC806F /* Pods-TXViewKeyboardResizer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests/Pods-TXViewKeyboardResizer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TXViewKeyboardResizer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E274B52E718D67B6CDD8FB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB8E0266163712CCE97515B /* Pods-TXViewKeyboardResizer_Tests-Expecta-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Expecta/Pods-TXViewKeyboardResizer_Tests-Expecta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Expecta/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TXViewKeyboardResizer_Tests-Expecta/Pods-TXViewKeyboardResizer_Tests-Expecta.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Expecta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A3AB2B659D2643124C6B07 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969D2A2238B7145276E056A0 /* Debug */,
+				B9C73211EA2CD4EA248B42F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532E88F054263EF1A662A5F5 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF9A7FCD3C34EB576FA55C0 /* Debug */,
+				BE908F2E94D1668A1DCBBEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6998B44A6B3D194A5D022B4F /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Example-TXViewKeyboardResizer-TXViewKeyboardResizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AE296D9C834B080824C920 /* Debug */,
+				37ABC10077CF44634EFC4BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93252B876F7BCC115DA8D527 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Tests-Expecta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AEFF083AF436EA4363A876 /* Debug */,
+				E274B52E718D67B6CDD8FB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DCC90BAD601EB7F74A1BEB /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer-TXViewKeyboardResizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1AB6EFB1A4295CBB6AFE24 /* Debug */,
+				2E443CA5B9BC6102B94721A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C179E93DD8883571E5DC16 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B8CB991B7722051373E42D /* Debug */,
+				421E53A73D92D1B21A0943B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE109B184023600C841DF64 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D75B2E263393B3D35FAFA25 /* Debug */,
+				C31CBDD55C9F58507A36426B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08214586B8665CC39CA33F6 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Tests-Specta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3207EA1D3585C4C571C004 /* Debug */,
+				54FF6EEFF66BBBB26F9014CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EBE6591A76A1EE9B0EF008 /* Build configuration list for PBXNativeTarget "Pods-TXViewKeyboardResizer_Tests-TXViewKeyboardResizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266C48E9777FEB7E9C8B0653 /* Debug */,
+				7412A8B4E67FB300BB724B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F981E469B52C174CCF2125 /* Project object */;
+}

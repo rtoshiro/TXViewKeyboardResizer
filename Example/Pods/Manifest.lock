@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (1.0.0)
+  - Specta (1.0.1)
+  - TXViewKeyboardResizer (0.9.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - TXViewKeyboardResizer (from `../`)
+
+EXTERNAL SOURCES:
+  TXViewKeyboardResizer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
+  Specta: 097be314a75de103703a3bf9a529dc1a398509d7
+  TXViewKeyboardResizer: 333bead64d9601661500f9b33cdbad3711d1027f
+
+COCOAPODS: 0.37.1

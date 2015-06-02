@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TXViewKeyboardResizer_Tests_TXViewKeyboardResizer : NSObject
+@end
+@implementation PodsDummy_Pods_TXViewKeyboardResizer_Tests_TXViewKeyboardResizer
+@end

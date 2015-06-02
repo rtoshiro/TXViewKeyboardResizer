@@ -1,0 +1,25 @@
+{
+  "name": "TXViewKeyboardResizer",
+  "version": "0.9.0",
+  "summary": "UIView category to allow the target view to resize itself according to UIKeyboardView size",
+  "description": "                       An optional longer description of TXViewKeyboardResizer\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/rtoshiro/TXViewKeyboardResizer",
+  "license": "MIT",
+  "authors": {
+    "rtoshiro": "rtoshiro@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rtoshiro/TXViewKeyboardResizer.git",
+    "tag": "0.9.0"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "TXViewKeyboardResizer": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

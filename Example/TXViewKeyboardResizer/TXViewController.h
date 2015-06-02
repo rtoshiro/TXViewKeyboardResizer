@@ -7,7 +7,10 @@
 //
 
 @import UIKit;
+@import TXViewKeyboardResizer;
 
-@interface TXViewController : UIViewController
+@interface TXViewController : UIViewController <UIViewKeyboardResizerDelegate>
+
+@property (nonatomic, weak) IBOutlet UIScrollView *scrollView;
 
 @end
