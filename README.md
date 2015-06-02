@@ -1,7 +1,6 @@
 # TXViewKeyboardResizer
 
-<!--[![CI Status](http://img.shields.io/travis/rtoshiro/TXViewKeyboardResizer.svg?style=flat)](https://travis-ci.org/rtoshiro/TXViewKeyboardResizer)
--->[![Version](https://img.shields.io/cocoapods/v/TXViewKeyboardResizer.svg?style=flat)](http://cocoapods.org/pods/TXViewKeyboardResizer)
+[![Version](https://img.shields.io/cocoapods/v/TXViewKeyboardResizer.svg?style=flat)](http://cocoapods.org/pods/TXViewKeyboardResizer)
 [![License](https://img.shields.io/cocoapods/l/TXViewKeyboardResizer.svg?style=flat)](http://cocoapods.org/pods/TXViewKeyboardResizer)
 [![Platform](https://img.shields.io/cocoapods/p/TXViewKeyboardResizer.svg?style=flat)](http://cocoapods.org/pods/TXViewKeyboardResizer)
 
@@ -9,7 +8,7 @@ It automatically resizes you UIView when keyboard appears.
 
 It can be used with any kind of UIViews. 
 
-If your view extends a UIScrollView, you need to adjust you UIScrollView.contentSize.
+If your view extends a UIScrollView, you need to adjust your UIScrollView.contentSize.
 
 ## Usage
 
