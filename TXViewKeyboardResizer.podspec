@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TXViewKeyboardResizer"
-  s.version          = "0.9.0"
+  s.version          = "1.0.0"
   s.summary          = "UIView category to allow the target view to resize itself according to UIKeyboardView size"
   s.description      = <<-DESC
 
