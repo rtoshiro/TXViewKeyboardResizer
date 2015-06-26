@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "TXViewKeyboardResizer"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "UIView category to allow the target view to resize itself according to UIKeyboardView size"
   s.description      = <<-DESC
 
@@ -35,14 +35,14 @@ Here, i am going to use Autoresize as it is a little bit easier in that case.
 
 With autoresize configured, when UIView resizes, our UITextField is positioned automaticaly.
 
-Now we can call startKeyboardObserver(WithDelegate:) inside our UIViewController:
+Now we can call startKeyboardResizerObserver(WithDelegate:) inside our UIViewController:
 
 ```
 - (void)viewDidLoad
 {
 [super viewDidLoad];
 
-[self.scrollView startKeyboardObserverWithDelegate:self];
+[self.scrollView startKeyboardResizerObserverWithDelegate:self];
 }
 ```
 We must remember stop observing when we are done with keyboard:
@@ -52,7 +52,7 @@ We must remember stop observing when we are done with keyboard:
 {
 [super viewWillDisappear:animated];
 
-[self.scrollView stopKeyboardObserver];
+[self.scrollView stopKeyboardResizerObserver];
 }
 ```
 
