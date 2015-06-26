@@ -22,13 +22,19 @@
 /**
  *  Make UIView observing keyboard notifications
  */
-- (void)startKeyboardObserver;
-- (void)startKeyboardObserverWithDelegate:(id<UIViewKeyboardResizerDelegate>)delegate;
+
+- (void)startKeyboardObserver __attribute__((deprecated));
+- (void)startKeyboardObserverWithDelegate:(id<UIViewKeyboardResizerDelegate>)delegate __attribute__((deprecated));
+
+- (void)startKeyboardResizerObserver;
+- (void)startKeyboardResizerObserverWithDelegate:(id<UIViewKeyboardResizerDelegate>)delegate;
 
 /**
  *  Stop observing keyboard notifications
  *  You should call this method before the UIView is released
  */
-- (void)stopKeyboardObserver;
+- (void)stopKeyboardObserver __attribute__((deprecated));
+
+- (void)stopKeyboardResizerObserver;
 
 @end

@@ -26,9 +26,9 @@ static const int kPropertiesKey;
 
 @interface UIView (KeyboardResizerPrivate)
 
-- (void)keyboardWillShown:(NSNotification *)aNotification;
-- (void)keyboardWillHide:(NSNotification *)aNotification;
-- (void)moveTextViewForKeyboard:(NSNotification*)aNotification up:(BOOL)up;
+- (void)keyboardResizerWillShown:(NSNotification *)aNotification;
+- (void)keyboardResizerWillHide:(NSNotification *)aNotification;
+- (void)moveTextViewForKeyboardResizer:(NSNotification*)aNotification up:(BOOL)up;
 - (void)tapGesture:(UIGestureRecognizer *)gesture;
 
 @end
@@ -50,31 +50,46 @@ static const int kPropertiesKey;
 
 - (void)startKeyboardObserverWithDelegate:(id<UIViewKeyboardResizerDelegate>)delegate
 {
-  if ([self properties].started)
-    [self stopKeyboardObserver];
+  [self startKeyboardResizerObserverWithDelegate:delegate];
+}
 
+- (void)startKeyboardObserver
+{
+  [self startKeyboardResizerObserverWithDelegate:nil];
+}
+
+- (void)stopKeyboardObserver
+{
+  [self stopKeyboardResizerObserver];
+}
+
+- (void)startKeyboardResizerObserverWithDelegate:(id<UIViewKeyboardResizerDelegate>)delegate
+{
+  if ([self properties].started)
+    [self stopKeyboardResizerObserver];
+  
   [self properties].observer = delegate;
   [self properties].initialFrame = self.frame;
   [self properties].gestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGesture:)];
   
   [self addGestureRecognizer:[self properties].gestureRecognizer];
   
-  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShown:) name:UIKeyboardWillShowNotification object:nil];
-  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
+  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardResizerWillShown:) name:UIKeyboardWillShowNotification object:nil];
+  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardResizerWillHide:) name:UIKeyboardWillHideNotification object:nil];
   
   [self properties].started = YES;
 }
 
-- (void)startKeyboardObserver
+- (void)startKeyboardResizerObserver
 {
-  [self startKeyboardObserverWithDelegate:nil];
+  [self startKeyboardResizerObserverWithDelegate:nil];
 }
 
-- (void)stopKeyboardObserver
+- (void)stopKeyboardResizerObserver
 {
   [self properties].observer = nil;
   [self properties].initialFrame = CGRectZero;
-
+  
   [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
   [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
   [self removeGestureRecognizer:[self properties].gestureRecognizer];
@@ -83,7 +98,7 @@ static const int kPropertiesKey;
   [self properties].started = NO;
 }
 
-- (void)moveTextViewForKeyboard:(NSNotification*)aNotification up:(BOOL)up
+- (void)moveTextViewForKeyboardResizer:(NSNotification*)aNotification up:(BOOL)up
 {
   NSDictionary* userInfo = [aNotification userInfo];
   NSTimeInterval animationDuration;
@@ -111,14 +126,14 @@ static const int kPropertiesKey;
   [UIView commitAnimations];
 }
 
-- (void)keyboardWillShown:(NSNotification*)aNotification
+- (void)keyboardResizerWillShown:(NSNotification*)aNotification
 {
-  [self moveTextViewForKeyboard:aNotification up:YES];
+  [self moveTextViewForKeyboardResizer:aNotification up:YES];
 }
 
-- (void)keyboardWillHide:(NSNotification*)aNotification
+- (void)keyboardResizerWillHide:(NSNotification*)aNotification
 {
-  [self moveTextViewForKeyboard:aNotification up:NO];
+  [self moveTextViewForKeyboardResizer:aNotification up:NO];
 }
 
 - (void)tapGesture:(UIGestureRecognizer *)gesture

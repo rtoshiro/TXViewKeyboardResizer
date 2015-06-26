@@ -18,14 +18,14 @@
 {
   [super viewDidLoad];
   
-  [self.scrollView startKeyboardObserverWithDelegate:self];
+  [self.scrollView startKeyboardResizerObserverWithDelegate:self];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
   [super viewWillDisappear:animated];
   
-  [self.scrollView stopKeyboardObserver];
+  [self.scrollView stopKeyboardResizerObserver];
 }
 
 - (void)didReceiveMemoryWarning
