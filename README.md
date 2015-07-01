@@ -8,7 +8,9 @@ It automatically resizes you UIView when keyboard appears.
 
 It can be used with any kind of UIViews. 
 
-If your view extends a UIScrollView, you need to adjust your UIScrollView.contentSize.
+If your view extends a UIScrollView, you need to adjust your UIScrollView.contentSize after resizing.
+
+It was inspired by **android:windowSoftInputMode="adjustResize"** from Android.
 
 ## Usage
 
