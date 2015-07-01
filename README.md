@@ -8,7 +8,9 @@ It automatically resizes you UIView when keyboard appears.
 
 It can be used with any kind of UIViews. 
 
-If your view extends a UIScrollView, you need to adjust your UIScrollView.contentSize.
+If your view extends a UIScrollView, you need to adjust your UIScrollView.contentSize after resizing.
+
+It was inspired by **android:windowSoftInputMode="adjustResize"** from Android.
 
 ## Usage
 
@@ -24,14 +26,14 @@ Here, i am going to use Autoresize as it is a little bit easier in that case.
 
 With autoresize configured, when UIView resizes, our UITextField is positioned automaticaly.
 
-Now we can call startKeyboardObserver(WithDelegate:) inside our UIViewController:
+Now we can call startKeyboardResizerObserver(WithDelegate:) inside our UIViewController:
 
 ```
 - (void)viewDidLoad
 {
   [super viewDidLoad];
   
-  [self.scrollView startKeyboardObserverWithDelegate:self];
+  [self.scrollView startKeyboardResizerObserverWithDelegate:self];
 }
 ```
 We must remember stop observing when we are done with keyboard:
@@ -41,7 +43,7 @@ We must remember stop observing when we are done with keyboard:
 {
   [super viewWillDisappear:animated];
   
-  [self.scrollView stopKeyboardObserver];
+  [self.scrollView stopKeyboardResizerObserver];
 }
 ```
 
