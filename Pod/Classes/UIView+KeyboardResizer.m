@@ -1,6 +1,5 @@
 //
 //  UIView+KeyboardResizer.m
-//  Organiza
 //
 //  Created by Toshiro Sugii on 3/1/15.
 //  Copyright (c) 2015 Toshiro Sugii. All rights reserved.
