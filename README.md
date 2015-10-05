@@ -29,9 +29,9 @@ With autoresize configured, when UIView resizes, our UITextField is positioned a
 Now we can call startKeyboardResizerObserver(WithDelegate:) inside our UIViewController:
 
 ```
-- (void)viewDidLoad
+- (void)viewWillAppear:(BOOL)animated
 {
-  [super viewDidLoad];
+  [super viewWillAppear:animated];
   
   [self.scrollView startKeyboardResizerObserverWithDelegate:self];
 }
